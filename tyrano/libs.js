@@ -401,7 +401,7 @@
         */
         
         $.ajax({
-            url: file_path + "?" + Math.floor(Math.random() * 1000000),
+            url: decodeURI(file_path) + "?" + Math.floor(Math.random() * 1000000),
             cache: false,
             success: function(text){
                 order_str = text;
