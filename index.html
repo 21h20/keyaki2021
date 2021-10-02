@@ -33,7 +33,20 @@ try{
 <script type="text/javascript" src="./tyrano/libs/jquery-ui/jquery-ui.min.js"></script>
 <script type="text/javascript" src="./tyrano/libs/jquery.a3d.js"></script>
 <script type="text/javascript" src="./tyrano/libs/jsrender.min.js"></script>
-
+<script>
+  const _$ajax = $.ajax
+  $.ajax = (a, b) => {
+    let a = a;
+    let b = b;
+    if(b){
+      a = decodeURI(a).replace(/\　/g, "%20");
+      _$ajax(a, b);
+    }else{
+      a.url = decodeURI(a.url).replace(/\　/g, "%20")
+      _$ajax(a);
+    }
+  }
+</script>
 <!-- 廃止予定 alertify.js -->
 <link href="./tyrano/libs/alertify/alertify.core.css" rel="stylesheet" type="text/css"/>
 <link href="./tyrano/libs/alertify/alertify.default.css" rel="stylesheet" type="text/css"/>
