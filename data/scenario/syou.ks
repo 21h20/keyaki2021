@@ -4,7 +4,7 @@
 
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Wind_into_the_North.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="55888_s.jpg"  ]
-[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/少年　普通.PNG"  width="260"  height="940"  left="509"  top="90"  reflect="false"  ]
+[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/syounenn_jisinnari.PNG"  width="236"  height="940"  left="509"  top="90"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #少年
@@ -14,7 +14,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　困り顔.PNG"  ]
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_komarigao.PNG"  ]
 [tb_start_text mode=1 ]
 #少年
 ホントだ。えーと、あみだくじ。渋滞。シロイヌナズナ。燃料電池。[p]
@@ -24,7 +24,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　自信あり.PNG"  ]
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_jisinnari.PNG"  ]
 [tb_start_text mode=1 ]
 #少年
 他にも大事なやつあるかなちょっと読んでいこう。[p]
@@ -34,13 +34,16 @@
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
-論文（医進サイエンスコース）のを読んでみてね[p]
-読み終わったら画面をダブルクリック！[p]
+次のスペースが空くまで[p]
+論文（医進サイエンスコースの）を読んでみてね[p]
+読み終わったらボタンをクリック！[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[l  ]
-[l  ]
+[glink  color="white"  storage="syou.ks"  size="20"  text="次へ進む"  x="574"  y="259"  width="156"  height="20"  _clickable_img=""  target="*next"  ]
+[s  ]
+*next
+
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #あなた
@@ -49,7 +52,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　困り顔.PNG"  ]
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_komarigao.PNG"  ]
 [tb_start_text mode=1 ]
 #少年
 プラナリアってなんだ？[p]
@@ -57,10 +60,8 @@
 プラナリアは体を切断してもそれぞれの体の部分が完全に再生する、再生能力がとても高い生物らしいよ。[p]
 [_tb_end_text]
 
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　驚き顔.PNG"  ]
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_odorokigao.PNG"  ]
 [tb_start_text mode=1 ]
-
-
 #少年
 すごいな！そんな生物がいるんだ！[p]
 なんで再生するの？[p]
@@ -75,6 +76,7 @@
 *1
 
 [chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　やる気.PNG"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #少年
 へぇー！君プラナリアにものすごく詳しいね。[p]
@@ -82,21 +84,25 @@
 (5階H3-5で幹細胞チームの発表聞いててよかった！...)[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [jump  storage="syou.ks"  target="*ss"  ]
 *2
 
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　困り顔.PNG"  ]
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_komarigao.PNG"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #少年
 ふーん、ほんとにそうなのかなぁ....。[p]
-
 #
 (是非、広尾学園5階の幹細胞チームで詳細を聞いてみてね)[p]
 
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 *ss
 
+[tb_show_message_window  ]
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_komarigao.PNG"  ]
 [tb_start_text mode=1 ]
 #少年
 この論文、プラナリア人間ってあるけど、プラナリア人間ていうのも同じ？　[p]
@@ -121,6 +127,7 @@
 
 [_tb_end_text]
 
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_jisinnari.PNG"  ]
 [tb_start_text mode=1 ]
 #少年
 とりあえず先に進んでみよー！[p]

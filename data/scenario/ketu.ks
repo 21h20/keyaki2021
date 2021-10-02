@@ -5,7 +5,7 @@
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Wind_into_the_North.mp3"  fadein="false"  ]
 [bg  time="1000"  method="crossfade"  storage="3499538_l.jpg"  ]
 [tb_show_message_window  ]
-[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/少年　やる気.PNG"  width="236"  height="940"  left="790"  top="70"  reflect="false"  ]
+[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/syounenn_egaobakuhatu.PNG"  width="235"  height="940"  left="790"  top="70"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #少年
 よし、脱出だ！　[p]
@@ -13,19 +13,17 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[glink  color="white"  storage="ketu.ks"  size="20"  text="うん！"  x="541"  y="329"  width=""  height=""  _clickable_img=""  target="*Nルート"  ]
-[glink  color="gray"  storage="ketu.ks"  size="20"  text="待て"  target="*広尾太郎"  x="596"  y="51"  width="24"  height="10"  _clickable_img=""  ]
+[glink  color="white"  storage="ketu.ks"  size="20"  text="うん！"  x="527"  y="285"  width=""  height=""  _clickable_img=""  target="*Nルート"  ]
+[glink  color="gray"  storage="ketu.ks"  size="20"  text="待て"  target="*広尾太郎"  x="587"  y="20"  width="45"  height="10"  _clickable_img=""  ]
 [s  ]
 *広尾太郎
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [jump  storage="ura.ks"  target="*裏"  ]
-*undefined
-
 *Nルート
 
-[chara_show  name="怪物"  time="1000"  wait="true"  storage="chara/2/プラナリア人間　笑顔.PNG"  width="290"  height="968"  left="232"  top="63"  reflect="false"  ]
+[chara_show  name="怪物"  time="1000"  wait="true"  storage="chara/2/puranarianinngenn_hakanai2.PNG"  width="271"  height="957"  left="232"  top="63"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #怪物
@@ -43,13 +41,14 @@
 
 [_tb_end_text]
 
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　困り顔.PNG"  ]
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_komarigao.PNG"  ]
 [tb_start_text mode=1 ]
 #少年
 えでも曾祖父ちゃん...。　[p]
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="5"  wait="false"  ]
+[chara_mod  name="怪物"  time="600"  cross="true"  storage="chara/2/puranarianinngenn_kanasi.PNG"  ]
 [chara_move  name="怪物"  anim="false"  time="300"  effect="linear"  wait="false"  left="488"  top="13"  width="290"  height="968"  ]
 [tb_start_text mode=1 ]
 #怪物
@@ -58,11 +57,12 @@
 たとえそれがわしの正しい人の生きる道でなくても、わしの子孫に巡り会えたのだ！[p]
 これほど悔いのない死に時はあるだろうか！！いやない！　[p]
 
+[_tb_end_text]
 
+[chara_mod  name="怪物"  time="600"  cross="true"  storage="chara/2/puranarianinngenn_hakanai2.PNG"  ]
+[tb_start_text mode=1 ]
 #曾祖父さん
 さらばだ！若者！未来を生きろ！　[p]
-
-
 [_tb_end_text]
 
 [chara_hide  name="怪物"  time="1000"  wait="false"  pos_mode="true"  ]
@@ -74,7 +74,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　驚き顔.PNG"  ]
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_odorokigao.PNG"  ]
 [tb_start_text mode=1 ]
 #少年
 曾祖父ちゃん！！[p]
@@ -93,7 +93,7 @@
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #アナウンス
-『転送開始！』[p]
+『転送開始』[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -101,6 +101,7 @@
 [mask  time="1000"  effect="fadeIn"  color="0xffffff"  ]
 [bg  time="1000"  method="crossfade"  storage="79654551_220x220.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
 後に本物の曾祖父ちゃんはご存命だったそうです。[p]

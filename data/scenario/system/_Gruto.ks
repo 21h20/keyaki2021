@@ -1,5 +1,5 @@
 [preload  storage="./data/bgimage/1014972_l.jpg"  ]
-[preload  storage="./data/fgimage/chara/1/少年　やる気.PNG"  ]
-[preload  storage="./data/fgimage/chara/1/少年　困り顔.PNG"  ]
+[preload  storage="./data/fgimage/chara/1/syounenn_jisinnari.PNG"  ]
+[preload  storage="./data/fgimage/chara/1/syounenn_komarigao.PNG"  ]
 [preload  storage="./data/bgimage/79654551_220x220.png"  ]
 [return]

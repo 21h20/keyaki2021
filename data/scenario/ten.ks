@@ -2,9 +2,9 @@
 
 *start2
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="Wind_into_the_North.mp3"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="Wind_into_the_North.mp3"  fadein="true"  ]
 [bg  time="1000"  method="crossfade"  storage="1670208_l.jpg"  ]
-[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/少年　困り顔.PNG"  width="220"  height="854"  left="518"  top="78"  reflect="false"  ]
+[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/syounenn_komarigao.PNG"  width="236"  height="940"  left="518"  top="78"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #少年
@@ -12,18 +12,23 @@
 #あなた
 そうだね。病院感も一切ないし、変に片付いてる..　[p]
 #少年
-あっ、でも、ここに一枚だけ紙がなんか落ちてる　[p]
+ん？[p]
+なんかここに一枚だけ紙が落ちてる　[p]
 
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [chara_hide  name="少年"  time="700"  wait="true"  pos_mode="true"  ]
 [quake  time="300"  count="1"  hmax="10"  wait="true"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
 カタッ、[p]
 [_tb_end_text]
 
-[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/少年　困り顔.PNG"  width="291"  height="962"  left="507"  top="49"  reflect="false"  ]
+[tb_hide_message_window  ]
+[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/syounenn_komarigao.PNG"  width="236"  height="940"  left="507"  top="49"  reflect="false"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #少年
 ねえ、、なんか今なんかした？　[p]
@@ -34,7 +39,7 @@
 
 [tb_start_text mode=1 ]
 #少年
-今確実に、なにかの音したんだけど　[p]
+今確実に、なにかの音がしたんだけど　[p]
 #あなた
 普通に何かが落ちたんじゃなくて？　[p]
 #少年
@@ -42,10 +47,12 @@
 
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [chara_hide  name="少年"  time="0"  wait="true"  pos_mode="true"  ]
-[chara_show  name="少年"  time="100"  wait="false"  storage="chara/1/少年　驚き顔.PNG"  width="220"  height="949"  left="864"  top="37"  reflect="false"  ]
-[chara_show  name="怪物"  time="100"  wait="true"  storage="chara/2/プラナリア人間　笑顔のコピー3.PNG"  width="290"  height="968"  left="124"  top="26"  reflect="false"  ]
+[chara_show  name="少年"  time="100"  wait="false"  storage="chara/1/syounenn_odorokigao.PNG"  width="236"  height="940"  left="864"  top="37"  reflect="false"  ]
+[chara_show  name="怪物"  time="100"  wait="true"  storage="chara/2/puranarianinngenn_kanasi.PNG"  width="261"  height="930"  left="124"  top="26"  reflect="false"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="false"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #あなた
 うわあああ！！[p]
@@ -63,20 +70,20 @@
 
 [chara_move  name="怪物"  anim="false"  time="300"  effect="linear"  wait="true"  left="482"  top="19"  width="290"  height="968"  ]
 [tb_start_text mode=1 ]
-#？
+#？？？
 アレックス！！[p]
 
 [_tb_end_text]
 
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_komarigao.PNG"  ]
 [tb_start_text mode=1 ]
 #少年
 え？　　[p]
-#？
+#？？？
 なぜ逃げるアレックス！！[p]
 
 [_tb_end_text]
 
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　普通.PNG"  ]
 [tb_start_text mode=1 ]
 #あなた
 どうしたの　[p]
@@ -87,24 +94,27 @@
 
 [_tb_end_text]
 
-[chara_mod  name="怪物"  time="600"  cross="true"  storage="chara/2/プラナリア人間　笑顔.PNG"  ]
+[chara_mod  name="怪物"  time="600"  cross="true"  storage="chara/2/puranarianinngenn_hakanai2.PNG"  ]
 [tb_start_text mode=1 ]
-#怪物
-こら待ってたら、って。あーすみません...。人違いでした。[p]
-いや、孫に似ていたもので。[p]
+#？？？
+こら待ってたら、って。[p]
+あー...すみません...。人違いでした。[p]
+いや、何分孫に似ていたもので。[p]
 #
-見た目に似合わず、じじくさくその化け物は言った。[p]
+見た目に似合わず、じじくさく、怪物は言った。[p]
 
 [_tb_end_text]
 
-[chara_mod  name="怪物"  time="600"  cross="true"  storage="chara/2/プラナリア人間　哀しいのコピー.PNG"  ]
+[chara_mod  name="怪物"  time="600"  cross="true"  storage="chara/2/puranarianinngenn_kanasi.PNG"  ]
 [tb_start_text mode=1 ]
-＃ん？ちょっと待て、その紙見してくれるか？[p]
-#そう言って怪物は紙を少年から奪い取った。
+＃怪物[p]
+ん？ちょっと待て、その紙見してくれるか？[p]
+#
+そう言って怪物は紙を少年から奪い取った。[p]
 
 [_tb_end_text]
 
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　困り顔.PNG"  ]
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_hutuu.PNG"  ]
 [tb_start_text mode=1 ]
 #少年
 あ、あのちょっと　[p]
@@ -115,7 +125,8 @@
 
 [_tb_end_text]
 
-[chara_mod  name="怪物"  time="600"  cross="true"  storage="chara/2/プラナリア人間　哀しい.PNG"  ]
+[tb_hide_message_window  ]
+[chara_mod  name="怪物"  time="600"  cross="true"  storage="chara/2/puranarianinngenn_kanasi2.PNG"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #怪物
@@ -128,8 +139,10 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="警報が鳴る.mp3"  clear="true"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="alerm.mp3"  clear="true"  ]
 [wse  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="Wind_into_the_North.mp3"  fadein="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #怪物
@@ -148,7 +161,8 @@
 [tb_hide_message_window  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1500"  method="crossfade"  storage="1014972_l.jpg"  ]
-[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/少年　困り顔.PNG"  width="291"  height="962"  left="125"  top="59"  reflect="false"  ]
+[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/syounenn_odorokigao.PNG"  width="236"  height="940"  left="125"  top="59"  reflect="false"  ]
+[chara_show  name="怪物"  time="1000"  wait="true"  storage="chara/2/puranarianinngenn_kanasi.PNG"  width="261"  height="930"  left="518"  top="78"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #少年
@@ -170,18 +184,18 @@
 [tb_hide_message_window  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="1670208_l.jpg"  ]
-[chara_show  name="プラナリア人間"  time="1000"  wait="false"  storage="chara/3/プラナリア人間　笑顔のコピー3.PNG"  width="290"  height="968"  left="186"  top="167"  reflect="false"  ]
-[chara_show  name="プラナリア人間２"  time="1000"  wait="false"  storage="chara/4/プラナリア人間　笑顔のコピー3.PNG"  width="290"  height="968"  left="379"  top="81"  reflect="false"  ]
-[chara_show  name="プラナリア人間３"  time="1000"  wait="false"  storage="chara/3/プラナリア人間　笑顔のコピー3.PNG"  width="290"  height="968"  left="501"  top="34"  reflect="false"  ]
-[chara_show  name="プラナリア人間４"  time="1000"  wait="false"  storage="chara/3/プラナリア人間　笑顔のコピー3.PNG"  width="290"  height="968"  left="620"  top="64"  reflect="false"  ]
-[chara_show  name="プラナリア人間５"  time="1000"  wait="false"  storage="chara/3/プラナリア人間　笑顔のコピー3.PNG"  width="290"  height="968"  left="711"  top="14"  reflect="false"  ]
-[chara_show  name="プラナリア人間６"  time="1000"  wait="false"  storage="chara/3/プラナリア人間　笑顔のコピー3.PNG"  width="290"  height="968"  left="826"  top="68"  reflect="false"  ]
-[chara_show  name="プラナリア人間７"  time="1000"  wait="false"  storage="chara/3/プラナリア人間　笑顔のコピー3.PNG"  width="290"  height="968"  left="938"  top="-9"  reflect="false"  ]
-[chara_show  name="プラナリア人間8"  time="1000"  wait="true"  storage="chara/3/プラナリア人間　笑顔のコピー3.PNG"  width="290"  height="968"  left="48"  top="-13"  reflect="false"  ]
+[chara_show  name="プラナリア人間"  time="1000"  wait="false"  storage="chara/3/puranarianinngenn_egao_3.PNG"  width="290"  height="968"  left="186"  top="167"  reflect="false"  ]
+[chara_show  name="プラナリア人間２"  time="1000"  wait="false"  storage="chara/4/puranarianinngenn_egao_3.PNG"  width="290"  height="968"  left="379"  top="81"  reflect="false"  ]
+[chara_show  name="プラナリア人間３"  time="1000"  wait="false"  storage="chara/5/puranarianinngenn_egao_3.PNG"  width="290"  height="968"  left="501"  top="34"  reflect="false"  ]
+[chara_show  name="プラナリア人間４"  time="1000"  wait="false"  storage="chara/6/puranarianinngenn_egao_3.PNG"  width="290"  height="968"  left="620"  top="64"  reflect="false"  ]
+[chara_show  name="プラナリア人間５"  time="1000"  wait="false"  storage="chara/7/puranarianinngenn_egao_3.PNG"  width="290"  height="968"  left="711"  top="14"  reflect="false"  ]
+[chara_show  name="プラナリア人間６"  time="1000"  wait="false"  storage="chara/8/puranarianinngenn_egao_3.PNG"  width="290"  height="968"  left="826"  top="68"  reflect="false"  ]
+[chara_show  name="プラナリア人間７"  time="1000"  wait="false"  storage="chara/9/puranarianinngenn_egao_3.PNG"  width="290"  height="968"  left="938"  top="-9"  reflect="false"  ]
+[chara_show  name="プラナリア人間8"  time="1000"  wait="true"  storage="chara/10/puranarianinngenn_egao_3.PNG"  width="290"  height="968"  left="48"  top="-13"  reflect="false"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="1014972_l.jpg"  ]
-[chara_show  name="怪物"  time="1000"  wait="false"  storage="chara/2/プラナリア人間　哀しいのコピー.PNG"  width="261"  height="930"  left="73"  top="59"  reflect="false"  ]
-[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/少年　困り顔.PNG"  width="291"  height="962"  left="1004"  top="59"  reflect="false"  ]
+[chara_show  name="怪物"  time="1000"  wait="false"  storage="chara/2/puranarianinngenn_kanasi.PNG"  width="261"  height="930"  left="73"  top="59"  reflect="false"  ]
+[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/syounenn_odorokigao.PNG"  width="236"  height="940"  left="1004"  top="59"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #怪物
 あいつらは未完成が故に再生能力が暴走し、栄養を補充するために何でもかんでも取り込んでいる！　[p]
@@ -194,13 +208,13 @@
 そういって怪物は消えていった。[p]
 [_tb_end_text]
 
-[chara_hide  name="怪物"  time="1000"  wait="true"  pos_mode="true"  ]
-[chara_hide  name="少年"  time="1000"  wait="true"  pos_mode="true"  ]
-[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/少年　驚き顔.PNG"  width="238"  height="949"  left="480"  top="36"  reflect="false"  ]
+[chara_hide_all  time="500"  wait="true"  ]
+[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/syounenn_odorokigao.PNG"  width="236"  height="940"  left="480"  top="36"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #少年
 そんなこと言ったって、この扉カギかかって開かないよ！！[p]
-#あなた　そうだよ、もうおしまいだぁ！！
+#あなた
+そうだよ、もうおしまいだぁ！！[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -208,16 +222,18 @@
 [tb_start_text mode=1 ]
 #放送
 爆発まで残り4分前　[p]
-＃アナウンス[p]
-タイムスリップの制限時間まで残り3分前[p]
+#アナウンス
+『タイムスリップの制限時間まで残り3分前』[p]
 #あなた
-（あれ？俺はプラナリア人間に襲われさえしなければ確実に生き残れるのでは？ってことは！）[p]
+（あれ？僕はプラナリア人間に襲われさえしなければ確実に生き残れるのでは？）[p]
 #あなた
 ...[p]
 
 [_tb_end_text]
 
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　困り顔.PNG"  ]
+[tb_hide_message_window  ]
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_komarigao.PNG"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #少年
 どうした？[p]
@@ -226,7 +242,7 @@
 とりあえず一緒にこの扉を開けよう[p]
 [_tb_end_text]
 
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　普通のコピー.PNG"  ]
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_iakri.PNG"  ]
 [tb_start_text mode=1 ]
 #少年
 わかった。[p]
@@ -235,25 +251,27 @@
 
 [tb_hide_message_window  ]
 [chara_hide  name="少年"  time="1000"  wait="true"  pos_mode="true"  ]
-[bg  time="1000"  method="crossfade"  storage="1014972_lのコピー.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="1014972_l1.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #あなた
 この扉も暗証番号で開くみたいだけど、今度はひらがなだな。[p]
-何か鍵となるものがないかさっきのところで探そう。[p]
+何か鍵となるものがないか探そう。[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_show_message_window  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="uzumakusinapusu.mp3"  ]
+[font  size="20"  color="0xffffff"  face="fantasy"  bold="true"  ]
 [tb_start_text mode=1 ]
 #
 謎解き開始！[p]
 [_tb_end_text]
 
-[stopbgm  time="1000"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="_uzumaki.m4a"  ]
+[resetfont  ]
 [iscript]
-window.setTimeout(dispMsg, 180000);
+window.setTimeout(dispMsg, 300000);
 function dispMsg(){
 alert('時間切れです。時間切れのボタンを押してください');
 }
@@ -263,7 +281,7 @@ alert('時間切れです。時間切れのボタンを押してください');
 *ラスト謎
 
 [bg  time="1000"  method="crossfade"  storage="1014972_l.jpg"  ]
-[button  storage=""  target="*謎３"  graphic="1014972_lのコピー.jpg"  width="422"  height="406"  x="713"  y="176"  _clickable_img=""  name="img_74"  ]
+[button  storage=""  target="*謎３"  graphic="1014972_l1.jpg"  width="1442"  height="1394"  x="713"  y="176"  _clickable_img=""  name="img_74"  ]
 [button  storage="ten.ks"  target="*left"  graphic="arrow_prev.png"  width="75"  height="70"  name="img_75"  x="20"  y="31"  _clickable_img=""  ]
 [glink  color="white"  storage="ten.ks"  size="20"  text="時間ぎれ"  x="510"  y="670"  width=""  height=""  _clickable_img=""  target="*timeup"  ]
 [s  ]
@@ -275,8 +293,8 @@ alert('時間切れです。時間切れのボタンを押してください');
 
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="1670208_l.jpg"  ]
-[button  storage="ten.ks"  target="*koma"  graphic="プラナリア人間　笑顔のコピー3.PNG"  width="290"  height="968"  x="-127"  y="45"  _clickable_img=""  name="img_83"  ]
-[button  storage="ten.ks"  target="*speak"  graphic="少年　やる気のコピー.PNG"  width="318"  height="986"  x="776"  y="77"  _clickable_img=""  name="img_84"  ]
+[button  storage="ten.ks"  target="*koma"  graphic="1014972_l1.jpg"  width="1442"  height="1394"  x="-127"  y="45"  _clickable_img=""  name="img_83"  ]
+[button  storage="ten.ks"  target="*speak"  graphic="syounenn_yaruki2.PNG"  width="236"  height="940"  x="776"  y="77"  _clickable_img=""  name="img_84"  ]
 [button  storage="ten.ks"  target="*right"  graphic="arrow_next.png"  width="75"  height="70"  x="1191"  y="11"  _clickable_img=""  name="img_85"  ]
 [s  ]
 *right
@@ -293,7 +311,7 @@ alert('時間切れです。時間切れのボタンを押してください');
 [jump  storage="ten.ks"  target="*hint2"  ]
 *人力
 
-[bg  time="1000"  method="crossfade"  storage="1014972_lのコピー3.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="1014972_l3.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
@@ -341,10 +359,10 @@ alert('時間切れです。時間切れのボタンを押してください');
 
 [bg  time="1000"  method="crossfade"  storage="1670208_l.jpg"  ]
 [tb_show_message_window  ]
-[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/少年　やる気.PNG"  width="318"  height="986"  left="473"  top="91"  reflect="false"  ]
+[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/syounenn_iakri.PNG"  width="236"  height="940"  left="473"  top="91"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #少年
-「赤い眼光の足元と目線に従え」...[p]
+「生首の足元と目線に従え」...[p]
 
 [_tb_end_text]
 
@@ -363,6 +381,7 @@ alert('時間切れです。時間切れのボタンを押してください');
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[chara_hide  name="少年"  time="500"  wait="true"  pos_mode="true"  ]
 [jump  storage="ten.ks"  target="*left"  ]
 *uii
 
@@ -372,8 +391,8 @@ alert('時間切れです。時間切れのボタンを押してください');
 *koma
 
 [cm  ]
-[chara_show  name="プラナリア人間２"  time="1000"  wait="true"  storage="chara/4/プラナリア人間　笑顔のコピー3.PNG"  width="290"  height="968"  left="220"  top="75"  reflect="false"  ]
-[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/少年　驚き顔.PNG"  width="236"  height="940"  left="847"  top="71"  reflect="false"  ]
+[chara_show  name="プラナリア人間２"  time="1000"  wait="true"  storage="chara/4/puranarianinngenn_egao_3.PNG"  width="290"  height="968"  left="220"  top="75"  reflect="false"  ]
+[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/syounenn_odorokigao.PNG"  width="236"  height="940"  left="847"  top="71"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #少年
@@ -384,7 +403,6 @@ alert('時間切れです。時間切れのボタンを押してください');
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[wait  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #あなた
@@ -411,8 +429,8 @@ alert('時間切れです。時間切れのボタンを押してください');
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[chara_show  name="怪物"  time="1000"  wait="false"  storage="chara/2/プラナリア人間　笑顔.PNG"  width="290"  height="968"  left="280"  top="50"  reflect="false"  ]
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　普通.PNG"  ]
+[chara_show  name="怪物"  time="1000"  wait="false"  storage="chara/2/puranarianinngenn_hakanai.PNG"  width="271"  height="957"  left="280"  top="50"  reflect="false"  ]
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_hutuu.PNG"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #怪物
@@ -425,15 +443,14 @@ alert('時間切れです。時間切れのボタンを押してください');
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[chara_mod  name="怪物"  time="600"  cross="true"  storage="chara/2/プラナリア人間　哀しいのコピー.PNG"  ]
+[chara_mod  name="怪物"  time="600"  cross="true"  storage="chara/2/puranarianinngenn_kanasi.PNG"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #怪物
 ...！！！[p]
 [_tb_end_text]
 
-[wait  time="500"  ]
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　やる気.PNG"  ]
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_yaruki.PNG"  ]
 [tb_start_text mode=1 ]
 #少年
 アレックス。[p]
@@ -444,7 +461,7 @@ alert('時間切れです。時間切れのボタンを押してください');
 
 [_tb_end_text]
 
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　困り顔.PNG"  ]
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_komarigao.PNG"  ]
 [tb_start_text mode=1 ]
 #少年
 でもまさかこんな研究があったなんて...。[p]
@@ -456,11 +473,11 @@ alert('時間切れです。時間切れのボタンを押してください');
 違う！！！[p]
 ここは少なくともプラナリア人間ほどの研究じゃなかった。[p]
 そしてわしは君の曾祖父さんではない。[p]
-正確には君の曾祖父さんから作られたプラナリア人間なんじゃ　[p]
+正確には君の曾祖父さんから作られたプラナリア人間なんじゃ。[p]
 
 [_tb_end_text]
 
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　驚き顔のコピー.PNG"  ]
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_odorokigao.PNG"  ]
 [tb_start_text mode=1 ]
 #怪物
 自我を持ってすぐにこの研究所を調べたが、始めは試験管やシャーレ内で人の細胞とプラナリアの細胞を融合していた実験に過ぎなかった。[p]
@@ -471,6 +488,7 @@ alert('時間切れです。時間切れのボタンを押してください');
 
 [_tb_end_text]
 
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_egaobakuhatu.PNG"  ]
 [tb_start_text mode=1 ]
 #少年
 あとちょっとだよな！[p]
