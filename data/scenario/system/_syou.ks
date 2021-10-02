@@ -1,0 +1,6 @@
+[preload  storage="./data/bgimage/55888_s.jpg"  ]
+[preload  storage="./data/fgimage/chara/1/少年　困り顔.PNG"  ]
+[preload  storage="./data/fgimage/chara/1/少年　自信あり.PNG"  ]
+[preload  storage="./data/fgimage/chara/1/少年　驚き顔.PNG"  ]
+[preload  storage="./data/fgimage/chara/1/少年　やる気.PNG"  ]
+[return]
