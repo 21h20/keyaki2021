@@ -25,7 +25,7 @@
 
 *Nルート
 
-[chara_show  name="怪物"  time="1000"  wait="true"  storage="chara/2/プラナリア人間　笑顔.PNG"  width="290"  height="968"  left="232"  top="63"  reflect="false"  ]
+[chara_show  name="怪物"  time="1000"  wait="true"  storage="chara/2/プラナリア人間　笑顔.PNG"  width="290"  height="968"  left="232"  top="63"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #怪物

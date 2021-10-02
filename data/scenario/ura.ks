@@ -26,7 +26,7 @@
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="渦巻くシナプス.mp3"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="渦巻くシナプス.mp3"  ]
 [tb_start_text mode=1 ]
 #あなた
 初めてさ君と出会ったとき、君は「何しに来たの」って聞いたよね。[p]
@@ -42,7 +42,7 @@
 [_tb_end_text]
 
 [l  ]
-[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/少年　困り顔のコピー.PNG"  width="236"  height="940"  left="518"  top="78"  reflect="false"  ]
+[chara_show  name="少年"  time="1000"  wait="true"  storage="chara/1/少年　困り顔のコピー.PNG"  width="236"  height="940"  left="518"  top="78"  reflect="false"  ]
 [delay  speed="30"  ]
 [tb_start_text mode=1 ]
 #少年

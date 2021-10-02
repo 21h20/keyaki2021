@@ -5,9 +5,9 @@
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Wind_into_the_North.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="1014972_l.jpg"  ]
 [chara_show  name="少年"  time="10"  wait="true"  storage="chara/1/少年　普通.PNG"  width="353"  height="940"  left="878"  top="83"  reflect="false"  ]
-[chara_show  name="怪物"  time="10"  wait="true"  storage="chara/2/プラナリア人間　哀しいのコピー.PNG"  width="261"  height="930"  left="306"  top="77"  reflect="false"  ]
-[chara_show  name="プラナリア人間"  time="10"  wait="true"  storage="chara/3/プラナリア人間　笑顔のコピー3.PNG"  width="290"  height="968"  left="17"  top="87"  reflect="false"  ]
-[chara_show  name="プラナリア人間２"  time="10"  wait="true"  storage="chara/4/プラナリア人間　笑顔のコピー3.PNG"  width="290"  height="968"  left="2"  top="-84"  reflect="false"  ]
+[chara_show  name="怪物"  time="10"  wait="true"  storage="chara/2/プラナリア人間　哀しいのコピー.PNG"  width="261"  height="930"  left="306"  top="77"  reflect="false"  ]
+[chara_show  name="プラナリア人間"  time="10"  wait="true"  storage="chara/3/プラナリア人間　笑顔のコピー3.PNG"  width="290"  height="968"  left="17"  top="87"  reflect="false"  ]
+[chara_show  name="プラナリア人間２"  time="10"  wait="true"  storage="chara/4/プラナリア人間　笑顔のコピー3.PNG"  width="290"  height="968"  left="2"  top="-84"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #プラナリア人間
