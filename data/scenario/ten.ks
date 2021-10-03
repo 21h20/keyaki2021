@@ -281,8 +281,8 @@ alert('時間切れです。時間切れのボタンを押してください');
 *ラスト謎
 
 [bg  time="1000"  method="crossfade"  storage="1014972_l.jpg"  ]
-[button  storage=""  target="*謎３"  graphic="1014972_l1.jpg"  width="1442"  height="1394"  x="713"  y="176"  _clickable_img=""  name="img_74"  ]
-[button  storage="ten.ks"  target="*left"  graphic="arrow_prev.png"  width="75"  height="70"  name="img_75"  x="20"  y="31"  _clickable_img=""  ]
+[button  storage=""  target="*謎３"  graphic="1014972_l1.jpg"  width="538"  height="522"  x="695"  y="114"  _clickable_img=""  name="img_97"  ]
+[button  storage="ten.ks"  target="*left"  graphic="arrow_prev.png"  width="75"  height="70"  name="img_98"  x="20"  y="31"  _clickable_img=""  ]
 [glink  color="white"  storage="ten.ks"  size="20"  text="時間ぎれ"  x="510"  y="670"  width=""  height=""  _clickable_img=""  target="*timeup"  ]
 [s  ]
 *timeup
@@ -293,7 +293,7 @@ alert('時間切れです。時間切れのボタンを押してください');
 
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="1670208_l.jpg"  ]
-[button  storage="ten.ks"  target="*koma"  graphic="1014972_l1.jpg"  width="1442"  height="1394"  x="-127"  y="45"  _clickable_img=""  name="img_83"  ]
+[button  storage="ten.ks"  target="*koma"  graphic="puranarianinngenn_egao_3.PNG"  width="290"  height="968"  x="-127"  y="45"  _clickable_img=""  name="img_83"  ]
 [button  storage="ten.ks"  target="*speak"  graphic="syounenn_yaruki2.PNG"  width="236"  height="940"  x="776"  y="77"  _clickable_img=""  name="img_84"  ]
 [button  storage="ten.ks"  target="*right"  graphic="arrow_next.png"  width="75"  height="70"  x="1191"  y="11"  _clickable_img=""  name="img_85"  ]
 [s  ]
