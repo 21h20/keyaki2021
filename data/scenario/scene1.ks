@@ -99,6 +99,7 @@
 [font  size="20"  color="0xffffff"  face="fantasy"  bold="true"  ]
 [tb_start_text mode=1 ]
 #
+制限時間５分[p]
 謎解き開始！！！[p]
 [_tb_end_text]
 
@@ -213,7 +214,7 @@ alert('時間切れです。時間切れのボタンを押してください');
 [s  ]
 *sinnbunn
 
-[tb_image_show  time="1000"  storage="default/news_shinbunshi-2.png"  width="202"  height="228"  x="717"  y="181"  _clickable_img=""  name="img_106"  ]
+[tb_image_show  time="1000"  storage="default/news_shinbunshi-2.png"  width="202"  height="228"  x="717"  y="181"  _clickable_img=""  name="img_107"  ]
 [tb_start_text mode=1 ]
 #少年
 この特殊なね新聞紙をね.[p]
@@ -227,11 +228,13 @@ alert('時間切れです。時間切れのボタンを押してください');
 [jump  storage="scene1.ks"  target="*謎一つ"  ]
 *misite
 
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_komarigao2.PNG"  ]
+[chara_hide  name="少年"  time="300"  wait="true"  pos_mode="true"  ]
+[chara_show  name="少年"  time="300"  wait="true"  storage="chara/1/syounenn_komarigao2.PNG"  width="236"  height="940"  left="518"  top="78"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #少年
-特に面白いことも書いてないよー.[p]
-東京復旧の目処はつかないーっていつになったらつくのやら。[p]
+あれ、ほんとだ。[p]
+「光を照らせ」？[p]
+...なんのことだろう。[p]
 
 [_tb_end_text]
 

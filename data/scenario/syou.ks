@@ -75,7 +75,7 @@
 [s  ]
 *1
 
-[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/少年　やる気.PNG"  ]
+[chara_mod  name="少年"  time="600"  cross="true"  storage="chara/1/syounenn_jisinnari.PNG"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #少年

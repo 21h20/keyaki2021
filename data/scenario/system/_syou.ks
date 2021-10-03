@@ -2,5 +2,4 @@
 [preload  storage="./data/fgimage/chara/1/syounenn_komarigao.PNG"  ]
 [preload  storage="./data/fgimage/chara/1/syounenn_jisinnari.PNG"  ]
 [preload  storage="./data/fgimage/chara/1/syounenn_odorokigao.PNG"  ]
-[preload  storage="./data/fgimage/chara/1/少年　やる気.PNG"  ]
 [return]

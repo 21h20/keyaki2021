@@ -1,7 +1,6 @@
-[preload  storage="./data/bgimage/2617249_l_2.jpg"  ]
-[preload  storage="./data/fgimage/default/news_shinbunshi-2.png"  ]
 [preload  storage="./data/fgimage/chara/1/syounenn_komarigao2.PNG"  ]
 [preload  storage="./data/fgimage/chara/1/syounenn_hutuu2.PNG"  ]
+[preload  storage="./data/bgimage/2617249_l_2.jpg"  ]
 [preload  storage="./data/fgimage/default/dougu_bar.png"  ]
 [preload  storage="./data/fgimage/chara/1/syounenn_egaobakuhatu2.PNG"  ]
 [return] 

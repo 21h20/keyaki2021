@@ -266,7 +266,9 @@
 [font  size="20"  color="0xffffff"  face="fantasy"  bold="true"  ]
 [tb_start_text mode=1 ]
 #
+制限時間は5分[p]
 謎解き開始！[p]
+
 [_tb_end_text]
 
 [resetfont  ]

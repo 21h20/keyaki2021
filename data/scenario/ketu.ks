@@ -23,6 +23,7 @@
 [jump  storage="ura.ks"  target="*裏"  ]
 *Nルート
 
+[jump  storage="ketu.ks"  target=""  ]
 [chara_show  name="怪物"  time="1000"  wait="true"  storage="chara/2/puranarianinngenn_hakanai2.PNG"  width="271"  height="957"  left="232"  top="63"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
